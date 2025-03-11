@@ -221,8 +221,8 @@ public class Loop{
 //     case 0 -> "zero";
 //     default-> "invalid";
 
-    
-// };
+
+// }
 // System.out.println(result);
 // n=n/10;
 // }
@@ -232,11 +232,11 @@ public class Loop{
 
 //HCF
 //  int hcf=0;
-//    System.out.println("Enter 1 number");
+//    System.out.println("Enter 1st number");
   
 
 // int a =obj.nextInt();
-//  System.out.println("Enter 2 number");
+//  System.out.println("Enter 2nd number");
 // int b =obj.nextInt();
 
 
@@ -351,7 +351,7 @@ public class Loop{
 
 //Right angled Triangle:
 
-char a='*';
+// char a='*';
 // for(int r=1;r<=5;r++){
 // for(int c=1;c<=5;c++){
 // if(c<=r){
@@ -362,7 +362,7 @@ char a='*';
 //     }
 // }
 // System.out.println();
-//}
+// }
 
 
 //Left angled triangle:
@@ -385,7 +385,7 @@ char a='*';
 // for(int r=1;r<=5;r++){
 // for(int c=1;c<=5;c++){
 // if(c<=6-r){
-//         System.out.print(a);
+//         System.out.print("*");
 //     }
 //     else{
 //         System.out.print(" ");
@@ -400,7 +400,7 @@ char a='*';
 // for(int r=1;r<=5;r++){
 // for(int c=1;c<=5;c++){
 // if(c>=r){
-//         System.out.print(a);
+//         System.out.print("*");
 //     }
 //     else{
 //         System.out.print(" ");
@@ -415,7 +415,7 @@ char a='*';
 // for(int r=1;r<=5;r++){
 // for(int c=1;c<=9;c++){
 // if(c>=6-r && c<=4+r){
-//         System.out.print(a);
+//         System.out.print("*");
 //     }
 //     else{
 //         System.out.print(" ");
@@ -427,17 +427,17 @@ char a='*';
 
 //Inverted pyramid:
 
-// for(int r=1;r<=5;r++){
-// for(int c=1;c<=9;c++){
-// if(c>=r && c<=10-r){
-//         System.out.print(a);
-//     }
-//     else{
-//         System.out.print(" ");
-//     }
-// }
-// System.out.println();
-// }
+for(int r=1;r<=5;r++){
+for(int c=1;c<=9;c++){
+if(c>=r && c<=10-r){
+        System.out.print("*");
+    }
+    else{
+        System.out.print(" ");
+    }
+}
+System.out.println();
+}
 
 
 //Diamond:
@@ -511,21 +511,21 @@ char a='*';
 
 //Standardized Pyramid :
 
-System.out.println("Enter number of rows:");
-int n = obj.nextInt();
+// System.out.println("Enter number of rows:");
+// int n = obj.nextInt();
 
 
-for(int r=1;r<=n;r++){
-    for(int c=1;c<=((n*2)-1);c++){
+// for(int r=1;r<=n;r++){
+//     for(int c=1;c<=((n*2)-1);c++){
         
-        if(c>=(n+1)-r && c<=(n-1)+r){
-            System.out.print("*");
-        }
-        else{
-             System.out.print(" ");
-        }
-    }System.out.println();
-}
+//         if(c>=(n+1)-r && c<=(n-1)+r){
+//             System.out.print("*");
+//         }
+//         else{
+//              System.out.print(" ");
+//         }
+//     }System.out.println();
+// }
 
 //Standardized inverted pyramid :
 
